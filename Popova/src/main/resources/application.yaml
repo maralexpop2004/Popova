@@ -11,5 +11,5 @@ spring:
     show-sql: true
 
   jwt:
-    secret: MatorinFedorAndreevichBIB101200000
+    secret: PopovaMariaAleksandrovna1BIB22150
     expiration: 3600000
