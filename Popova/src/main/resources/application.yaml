@@ -1,8 +1,8 @@
 spring:
   application:
-    name: demo
+    name: Popova
   datasource:
-    url: jdbc:postgresql://localhost:5432/sandbox
+    url: jdbc:postgresql://localhost:5432/postgres
     username: ${JDBC_USER}
     password: ${JDBC_PASSWORD}
   jpa:
