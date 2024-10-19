@@ -30,6 +30,8 @@ public class JwtTokenFilter extends OncePerRequestFilter {
         String token = resolveToken(request);
         String username = null;
 
+        //TODO: написать тело метода получения и проверки токена
+
         if (token != null) {
             // Пытаемся извлечь имя пользователя из токена
             username = jwtTokenProvider.getUsername(token);
