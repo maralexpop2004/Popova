@@ -12,6 +12,6 @@ spring:
       ddl-auto: update
     show-sql: true
 
-  jwt:
-    secret: PopovaMariaAleksandrovna1BIB22150
-    expiration: 3600000
+jwt:
+  secret: PopovaMariaAleksandrovna1BIB22150
+  expiration: 3600000

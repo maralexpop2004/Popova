@@ -1,0 +1,8 @@
+package ru.mtuci.Popova_Practica.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import ru.mtuci.Popova_Practica.model.licenseType;  // Изменено на LicenseType с заглавной буквы
+
+public interface licenseTypeRepository extends JpaRepository<licenseType, Long> {
+    // Здесь вы можете добавить свои пользовательские методы, если это необходимо
+}
