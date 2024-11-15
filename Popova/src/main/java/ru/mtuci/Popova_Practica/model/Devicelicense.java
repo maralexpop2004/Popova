@@ -20,42 +20,34 @@ public class Devicelicense {
 
     private Date activationDate;
 
-    // Геттер для id
     public Long getId() {
         return id;
     }
 
-    // Сеттер для id
     public void setId(Long id) {
         this.id = id;
     }
 
-    // Геттер для license
     public license getLicense() {
         return license;
     }
 
-    // Сеттер для license
     public void setLicense(license license) {
         this.license = license;
     }
 
-    // Геттер для device
     public Device getDevice() {
         return device;
     }
 
-    // Сеттер для device
     public void setDevice(Device device) {
         this.device = device;
     }
 
-    // Геттер для activationDate
     public Date getActivationDate() {
         return activationDate;
     }
 
-    // Сеттер для activationDate
     public void setActivationDate(Date activationDate) {
         this.activationDate = activationDate;
     }
