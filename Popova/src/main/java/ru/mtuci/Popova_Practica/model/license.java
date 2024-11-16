@@ -3,7 +3,6 @@ package ru.mtuci.Popova_Practica.model;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.catalina.User;
 
 import java.util.Date;
 import java.util.List;
@@ -24,7 +23,7 @@ public class license {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private ApplicationUser user;
 
 
     @ManyToOne
@@ -37,7 +36,7 @@ public class license {
     private licenseType licenseType;
     @ManyToOne
     @JoinColumn(name = "owner_id")
-    private User owner;
+    private ApplicationUser owner;
 
 
     private Date firstActivationDate;
